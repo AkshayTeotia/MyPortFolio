@@ -1,0 +1,1055 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lilita+One&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+/* .handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+/* 
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+html,body{
+    color: white;
+    background-color: black;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+    
+}
+#page1{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+
+}
+
+#page2{
+    height:100vh;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    
+    
+
+}
+hr{
+    width: 80vw;
+    background-color: white;
+    
+}
+
+#page3{
+    height:130vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+#page4{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    width:100vw;
+    background-color:black;
+
+}
+#page5{
+    
+    width:100vw;
+    background-color: black;
+
+}
+#logo{
+    color:rgb(210, 153, 77);
+    margin-left:30px ;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#nav1 ul li a{
+    color:white;
+    text-decoration: none;
+}
+#nav1{
+    display: flex;
+    width: 100vw;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-bottom: 2px solid white;
+}
+
+#nav1 ul{
+    display: flex;
+    margin:0px;
+    list-style: none;
+    font-size: 18px;
+    
+}
+#nav1 ul li {
+    padding:20px;
+}
+
+#nav1 ul li a:hover{
+    color:rgb(210, 153, 77);
+    text-decoration:underline;
+    
+}
+
+
+#page1-content{
+    position: absolute;
+    top:200px;
+    left: 100px;
+    z-index: 1000;
+}
+
+#page1-content h1{
+    font-size: 50px;
+    margin:10px 0px;
+}
+#page1-content p{
+    font-size: 30px;
+    margin:10px 0px;
+}
+#page1-content h4{
+    font-size: 30px;
+    
+}
+#page1-content img{
+    height: 90vh;
+    position: absolute;
+    left:55vw;
+    top:-120.5px;
+    z-index:-290;
+    mix-blend-mode:luminosity;
+
+}
+#hire-btn{
+    color:black;
+    text-transform:uppercase;
+    font-size: 20px;
+    background-color: rgb(210, 153, 77);
+    padding:3px 10px;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 180px;
+    margin-right: 15px;
+}
+
+#element{
+    color:rgb(210, 153, 77) ;
+    font-size: 70px;
+}
+#works-btn{
+    color:white;
+    text-transform:uppercase;
+    font-size: 20px;
+    background-color: transparent;
+    padding:3px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 52px;
+    width: 180px;
+}
+
+#works-btn a{
+
+    text-decoration: none;
+    color:white;
+
+}
+
+#works-btn:hover{
+    border: none;
+
+    a{
+    color:black;
+    }
+
+}
+
+#works-btn a:active{
+
+    color:black;
+}
+
+
+#works-btn:active{
+    transform: scale(0.8);
+}
+#hire-btn:active{
+    transform: scale(0.8);
+
+}
+
+#btns{
+    margin-top: 50px;
+}
+
+#works-btn:hover{
+    background-color:rgb(210, 153, 77);
+    color: black;
+}
+#hire-btn:hover{
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.p2-content-1{
+    height: 100vh;
+    width:40vw;
+    background-color:black;
+   
+
+}
+.p2-content-1 img{
+    height: 50%;
+    border: 10px solid white;
+    margin: 180px 80px;
+    border-radius: 550px 550px;
+}
+
+.p2-content-2{
+    height: 100vh;
+    width:60vw;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    
+
+}
+#h11{
+    font-size: 70px;
+    z-index: 3;
+    position: relative;
+    left:18px;
+    top:-50px;
+    margin: 0;
+
+}
+#h12{
+    font-size: 130px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.199);
+    position: relative;
+    top:-140px;
+    margin: 0;
+}
+
+table{
+    margin-top: -120px;
+}
+.i1{
+    font-size: 30px;
+}
+
+.i2{
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 27px;
+}
+
+
+#my-work-btn{
+    color:black;
+    text-transform:uppercase;
+    font-size: 15px;
+    background-color: rgb(210, 153, 77);
+    padding:3px 10px;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+   
+#my-work-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+    
+
+#my-work-btn:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    a{
+        color: white;
+    }
+    color: white;
+    font-size: 20px;
+}
+
+#skills-head{
+    height: 30vh;
+    width:100vw;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#skills-head #h11{
+    position: relative;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:3px;
+    left:160px;
+    
+}
+
+#skills-head #h12{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 150px;
+    top:50px;
+    left:-140px;
+    
+}
+
+#skills{
+    height: 62vh;
+    width:100vw;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    
+    
+
+}
+
+.s-items{
+    margin-left: 100px;
+    justify-self:center;
+    justify-content: center;
+    height: 110px;
+    margin-left: 100px;
+    width:25cm;
+    color: white;
+    
+    
+}
+.s-items label{
+    font-size: 30px;
+}
+.skill { 
+            
+    background-color:  rgb(210, 153, 77); 
+    color:black; 
+    padding-bottom: 4px;
+    text-align: right; 
+    font-size: 22px;
+    padding-top: 8px;
+    align-items: center; 
+    border-radius: 15px; 
+} 
+
+.container { 
+    background-color: rgba(255, 255, 255, 0.364); 
+    width: 80%; 
+    height: 40px;
+    border-radius: 15px;
+    margin: 19px;
+        
+
+}
+
+.html { 
+    width: 95%; 
+} 
+
+.css { 
+    width: 80%; 
+} 
+.Javascript { 
+    width: 60%; 
+} 
+.c { 
+    width: 70%; 
+} 
+
+.sa{ 
+    width: 40%; 
+} 
+.apex{ 
+    width: 20%; 
+} 
+
+.pro img{
+    height: 50vh;
+    float:left;
+    margin: -20px 10px 20px 10px;
+    
+
+}
+.pro h4{
+    font-size: 25px;
+    margin-left: 15px;
+    
+
+}
+.pro a{
+    text-decoration: none;
+    color:white;
+}
+
+.pro a:visited{
+    text-decoration: none;
+    color:white;
+    
+}
+.pro a:hover{
+    text-decoration: none;
+    color:rgb(210, 153, 77);
+    
+}
+.pro a:active{
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+#page4-content{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+ 
+#page4 #skills-head #h11{
+    left: 240px;
+
+}
+#page4 #skills-head #h12{
+    font-size: 130px;
+
+}
+#Contact{
+    height: 14vh;
+
+}
+
+#page5 #Contact #h11{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#page5 #Contact #h12{
+    display: flex;
+    justify-content: center;
+}
+#cont{
+    display: flex;
+    flex-direction: row;
+}
+#contact-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50vw;
+    height: 70vh;
+    color:rgba(255, 255, 255, 0.316);
+    flex-direction: column;
+}
+#contact-quote h1{
+    
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+#contact-form{
+    width:50vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 70vh;
+   
+}
+#form{
+    display: flex;
+    justify-content: left;
+    width:40vw;
+    height: 60vh;
+}
+#form label{
+
+    font-size: 30px;
+}
+#form input{
+    height: 40px;
+    width:600px;
+   
+    
+}
+textarea{
+    font-size: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+fieldset{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#form button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.507);
+    
+}
+#form button:hover{
+    color: rgba(255, 255, 255, 0.496);
+}
+
+#form button:active{
+    transform: scale(0.8);
+}
+
+legend{
+
+    font-size: 25px;
+}
+
+#footer{
+    height: 50px;
+    width:100vw;
+    color:white;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+media query */
+
+@media screen and (max-width:974px){
+    
+    
+    #btns{
+        margin-top:50px;
+    }
+    #page1-content img{
+        display: none;
+    
+    }
+    #logo{
+        display: none;
+    }
+    #nav1{
+        justify-content: center;
+        margin-left: 0px;
+        
+        
+    }
+    #nav1 ul li {
+        padding:10px;
+        
+        
+    }
+    #nav1 ul{
+        margin-left: -15px;
+    }
+
+    #page1-content{
+        top:100px;
+        left: 15px;
+    }
+    
+    #page2{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .p2-content-1{
+        margin-left: 0;
+        display: flex;
+        width: 100vw;
+        height: 300px;
+        justify-content: center;
+        align-items: flex-end ;
+
+    }
+    .p2-content-1 img{
+        margin-left: 0;
+        margin-top: 0;
+        margin: 0;
+        height: 80%;
+        border: 2px solid white;
+
+    }
+
+    .p2-content-2{
+        height: 100vh;
+        width:100vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding-left: 0px;
+        
+    
+    }
+    #h11{
+        font-size: 50px;
+        z-index: 3;
+        position: relative;
+        justify-self: center;
+        left: 35px;
+        top:-150px;
+        margin: 0;
+    
+    }
+    #h12{
+        font-size: 90px;
+        z-index: 2;
+        color: rgba(255, 255, 255, 0.199);
+        position: relative;
+        top:-210px;
+        margin: 0 0 0 74px;
+    }
+    .i1{
+        font-size: 20px;
+        padding: 0;
+    }
+    .i2{
+        font-size: 18px;
+    }
+    table{
+        padding: 0;
+        margin-top: -180px;
+        margin-left: 13px;
+        
+        width: 380px;
+        
+    
+    }
+    #page3{
+        height: 110vh;
+    }
+    
+    #skills-head{
+        height: 100px;
+    }
+    #skills-head #h11{
+        top:3px;
+        min-width: 300px;
+        font-size: 50px;
+        left:210px;
+        
+    }
+    
+    #skills-head #h12{
+        
+        font-size: 100px;
+        top:40px;
+        left:-180px;
+        
+    }
+    #skills{
+        height: 62vh;
+        margin-top: 70px;
+        
+        
+    
+    }
+    
+    .s-items{
+        margin-left: 100px;
+        justify-self:center;
+        justify-content: center;
+        height: 90px;
+        margin-left: 45px;
+        width:25cm;
+        color: white;
+        
+        
+    }
+    .s-items label{
+        font-size: 20px;
+    }
+    .skill { 
+                
+        background-color:  rgb(210, 153, 77); 
+        color:black; 
+        padding-bottom: 1px;
+        text-align: right; 
+        font-size: 19px;
+        padding-top: 0px;
+        align-items: center; 
+        border-radius: 15px; 
+    } 
+    
+    .container { 
+        background-color: rgba(255, 255, 255, 0.364); 
+        width: 80%; 
+        height: 25px;
+        border-radius: 15px;
+        margin: 19px;
+            
+    
+    }
+
+    
+    #cont{
+        
+        flex-direction: column;
+    }
+    
+    
+    #page4-content{
+        margin-top: 300px;
+        display: flex;
+        justify-content: center;
+    }
+     
+    #page4 #skills-head #h11{
+        top:60px;
+        left: 230px;
+    
+    }
+    #page4 #skills-head #h12{
+        top:80px;
+        font-size: 100px;
+    
+    }
+    #page4 img{
+        height:25vh;
+    }
+    .pro h4{
+        
+        font-size: 18px;
+    }
+    .pro{
+        margin-top: -20px;
+    }
+    #page4-content{
+        margin: 120px;
+    }
+
+    #page5 #Contact #h11{
+        margin-top: 200px;
+        margin-left: -65px;
+        
+    }
+    #page5 #Contact #h12{
+        
+        margin-left: 0px;
+        
+    }
+    #contact-quote{
+        height: 1vh;
+        
+        margin-bottom: 100px;
+        width: 100vw;
+    }
+
+
+    #contact-form{
+        justify-content: center;
+    }
+    #contact-quote h1{
+        font-size: 30px;
+        color:rgba(255, 255, 255, 0.655);
+    }
+    #form input{
+        width: 300px;
+        
+    }
+    
+    textarea{
+        width: 300px;
+    }
+
+
+
+    }
+
+
+    
+    @media screen and (max-width:505px){
+    
+    #page1-content{
+        left: 10px;
+        top:100px;
+    } 
+    #page1-content p{
+        font-size: 20px;
+        
+    }   
+    #nav1 ul li {
+        padding:23px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    #btns{
+        
+        display: flex;
+        
+    }
+    #hire-btn{
+        margin-bottom: 20px;
+        
+    }
+
+    #page2{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .p2-content-1{
+        margin-left: 0;
+        display: flex;
+        width: 100vw;
+        height: 300px;
+        justify-content: center;
+        align-items: flex-end ;
+
+    }
+    .p2-content-1 img{
+        margin-left: 0;
+        margin-top: 0;
+        margin: 0;
+        height: 80%;
+        border: 2px solid white;
+
+    }
+
+    .p2-content-2{
+        height: 100vh;
+        width:100vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        
+    
+    }
+    #h11{
+        font-size: 50px;
+        
+        left: 35px;
+        top:-150px;
+        margin: 0;
+    
+    }
+    #h12{
+        font-size: 90px;
+        
+        top:-210px;
+        margin: 0 0 0 74px;
+    }
+    .i1{
+        font-size: 20px;
+        padding: 0;
+    }
+    .i2{
+        font-size: 18px;
+    }
+    table{
+        padding: 0;
+        margin-top: -180px;
+        margin-left: 13px;
+        
+        width: 380px;
+        
+    
+    }
+    #page3{
+        height: 110vh;
+    }
+    
+    #skills-head{
+        height: 100px;
+    }
+    #skills-head #h11{
+        top:3px;
+        min-width: 300px;
+        font-size: 50px;
+        left:210px;
+        
+    }
+    
+    #skills-head #h12{
+        
+        font-size: 100px;
+        top:40px;
+        left:-180px;
+        
+    }
+    #skills{
+        height: 62vh;
+        margin-top: 70px;
+        
+        
+    
+    }
+    
+    .s-items{
+        margin-left: 100px;
+        justify-self:center;
+        justify-content: center;
+        height: 90px;
+        margin-left: 45px;
+        width:25cm;
+        color: white;
+        
+        
+    }
+    .s-items label{
+        font-size: 20px;
+    }
+    .skill { 
+                
+        background-color:  rgb(210, 153, 77); 
+        color:black; 
+        padding-bottom: 1px;
+        text-align: right; 
+        font-size: 19px;
+        padding-top: 0px;
+        align-items: center; 
+        border-radius: 15px; 
+    } 
+    
+    .container { 
+        background-color: rgba(255, 255, 255, 0.364); 
+        width: 80%; 
+        height: 25px;
+        border-radius: 15px;
+        margin: 19px;
+            
+    
+    }
+
+    #cont{
+        
+        flex-direction: column;
+    }
+    
+    
+    #page4-content{
+        margin-top: 300px;
+        display: flex;
+        justify-content: center;
+    }
+     
+    #page4 #skills-head #h11{
+        top:60px;
+        left: 230px;
+    
+    }
+    #page4 #skills-head #h12{
+        top:80px;
+        font-size: 100px;
+    
+    }
+    #page4 img{
+        height:25vh;
+    }
+    .pro h4{
+        
+        font-size: 18px;
+    }
+    .pro{
+        margin-top: -20px;
+    }
+    #page4-content{
+        margin: 90px;
+    }
+
+    #page5 #Contact #h11{
+        margin-top: 200px;
+        margin-left: -65px;
+        
+    }
+    #page5 #Contact #h12{
+        
+        margin-left: 0px;
+        
+    }
+    #contact-quote{
+        height: 1vh;
+        
+        margin-bottom: 100px;
+        width: 100vw;
+    }
+
+
+    #contact-form{
+        justify-content: center;
+        width: 100vw;
+    }
+    #contact-quote h1{
+        font-size: 30px;
+        color:rgba(255, 255, 255, 0.655);
+    }
+    #form input{
+        width: 300px;
+        
+    }
+    
+    
+    textarea{
+        width: 300px;
+    }
+    fieldset{
+        margin-left: -70px;
+    }
+
+    }
